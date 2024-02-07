@@ -27,11 +27,11 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I am</span>
+          <span>MD Yusuf Khan K</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+          Passionate Fullstack Web Developer crafting engaging digital experiences. 
+          <br/>Specializing in frontend and backend technologies, I bring ideas to life through clean, efficient code.<br/> Let's build something amazing together!
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +39,9 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/MohammedYusufKhan/test"><img src={Github} alt="" /></a>
+          <a href="linkedin.com/in/yusuf-khan-21a10b1a3"><img src={LinkedIn} alt="" /></a>
+          <a href=""><img src={Instagram} alt="" /></a>
         </div>
       </div>
       {/* right image side */}
