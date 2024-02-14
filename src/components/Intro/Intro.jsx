@@ -40,7 +40,7 @@ const Intro = () => {
         {/* social icons */}
         <div className="i-icons">
           <a href="https://github.com/MohammedYusufKhan/test"><img src={Github} alt="" /></a>
-          <a href="linkedin.com/in/yusuf-khan-21a10b1a3"><img src={LinkedIn} alt="" /></a>
+          <a href="https://www.linkedin.com/in/yusuf-khan-21a10b1a3/"><img src={LinkedIn} alt="" /></a>
           <a href=""><img src={Instagram} alt="" /></a>
         </div>
       </div>
